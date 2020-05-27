@@ -1,0 +1,20 @@
+body {
+    color: #414751;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+h3 {
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    font-weight: normal;
+    font-size: 20pt;
+}
+
+b {
+    text-transform: uppercase;
+}
+
+.img1 {
+    float: right;
+}
