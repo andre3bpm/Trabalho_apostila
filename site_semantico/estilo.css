@@ -1,0 +1,77 @@
+            #wrapper {
+                margin: 0 auto;
+                overflow: hidden;
+                background: #fff;
+                width: 1024px;
+            }
+            
+            body {
+                text-align: center;
+                font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+                line-height: 1.6;
+                background-color: #fff;
+            }
+            
+            #logo {
+                margin-top: 10px;
+                margin-left: 10px;
+                width: 10%;
+                height: 50px;
+                float: left;
+                background: #eee;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            #direito {
+                margin-top: 10px;
+                margin-left: 390px;
+                width: 40%;
+                height: 50px;
+                float: left;
+                background: #eee;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+            
+            a {
+                padding: 20px;
+                text-decoration: none;
+            }
+            
+            a:link {
+                color: #e40d0d;
+            }
+            
+            main {
+                padding: 100px;
+                position: relative;
+                right: 190px;
+            }
+            
+            section {
+                border-color: #CCC #999 #999 #CCC;
+                border: 1px solid #CCC;
+                margin-bottom: 20px;
+                margin-left: 100px;
+                padding: 50px;
+                width: 61%;
+            }
+            
+            article {
+                position: absolute;
+                top: 100px;
+                right: -80px;
+            }
+            
+            .conteudo4 {
+                height: 130px;
+                width: 100px;
+            }
+            
+            .conteudo5 {
+                width: 100px;
+                height: 70px;
+            }
