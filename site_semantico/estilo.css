@@ -73,5 +73,16 @@
             
             .conteudo5 {
                 width: 100px;
-                height: 70px;
+                height: 50px;
+            }
+            
+            .rede {
+                position: absolute;
+                bottom: auto;
+            }
+            
+            .trab {
+                position: relative;
+                right: -500px;
+                bottom: auto;
             }
