@@ -73,16 +73,16 @@
             
             .conteudo5 {
                 width: 100px;
-                height: 50px;
+                height: 70px;
             }
             
             .rede {
-                position: absolute;
+                position: relative;
                 bottom: auto;
             }
             
-            .trab {
-                position: relative;
-                right: -500px;
-                bottom: auto;
+            h1 {
+                font-size: 1em;
+                text-align: left;
+                margin-bottom: initial;
             }
