@@ -9,34 +9,48 @@ html {
 
 .container {
     margin: 0 auto;
-    width: 960px;
+    /* +/- 960px era o valor do Width, nesse caso foi usado valor aproximado, para manter o layout centralizado*/
+    width: 67.5%;
 }
 
 h1 {
-    font-size: 32px;
+    /*32px; realizado conversão  32/16 = 2em*/
+    font-size: 2em;
 }
 
-.brief {
-    margin: 5px 0;
+.content {
+    /* 15px 0, realizado a conversão 15/960 = 0,015625*100=1,5625 */
+    margin: 1.5625% 0;
 }
 
 .content-main {
     float: left;
-    width: 593px;
+    /* 593px(.content-main) / 960 (.container) */
+    width: 61.7708%;
 }
 
 .hero {
-    margin: 25px 0;
+    /* 25/593 (margin era de 25px) */
+    margin: 4.2158% 0;
+}
+
+.brief {
+    /* 5 / 593 (Margin era de 5px) */
+    /* = 0.8431%, que, opcionalmente, pode ser arredondado para 1% */
+    margin: 1% 0;
 }
 
 .last-contents {
-    font-size: 12px;
+    /* 12/16 = 0,75*100=75 (font-size era 12px)*/
+    font-size: .75em;
 }
 
 .last-content-call {
     float: left;
-    margin: 15px 15px 15px 0;
-    width: 280px;
+    /* 15 / 593 (.content-main) margin era 15px */
+    margin: 2.5295% 2.5295% 2.5295% 0;
+    /* 280 / 593 (.content-main) width era 280px */
+    width: 47.2175%;
 }
 
 .last-content-call .secondary-title {
@@ -44,14 +58,17 @@ h1 {
 }
 
 .last-content-call .brief {
-    margin: 5px;
+    /* 5 / 280 (margin era 5px)*/
+    margin: 1.7857% 0;
 }
 
 .content-sidebar {
     background-color: #f0f0f0;
     float: right;
-    padding: 10px;
-    width: 322px;
+    /* 10/960 (padding era 10px) */
+    padding: 1.0416%;
+    /* 322/960 (width era 322px) */
+    width: 33.5416%;
 }
 
 .main-nav ul {
@@ -61,15 +78,18 @@ h1 {
 .main-nav li {
     background-color: #f9f9f9;
     float: left;
-    margin: 15px;
+    /* 15 / 322 (.content-sidebar), margin era 15px */
+    margin: 4.6583%;
     outline: 1px solid #dedede;
     text-align: center;
-    width: 130px;
+    /* 130 / 322 (.content-sidebar), width era 130px */
+    width: 40.3726%;
 }
 
 .main-nav a {
     display: block;
-    padding: 10px;
+    /* 10 / 130 (130 era o valor do width em .main-nav li ) */
+    padding: 7.6923%;
     text-decoration: none;
 }
 
@@ -77,9 +97,12 @@ h1 {
     background-color: #f0f0f0;
     clear: both;
     float: left;
-    font-size: 12px;
-    margin: 15px 0;
-    padding: 15px;
+    /* 12 / 16  (font-size era 12px) */
+    font-size: .75em;
+    /* 15 / 960 (.container)*/
+    margin: 1.5625% 0;
+    /* 15 / 960 (.container)*/
+    padding: 1.5625%;
     text-align: center;
     width: 100%;
 }
